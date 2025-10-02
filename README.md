@@ -37,7 +37,7 @@ The goal is to practice SQL inside Python, perform simple aggregations, and crea
 ---
 
 ## 📊 SQL Query Used
-```sql
+
 SELECT
     product,
     SUM(quantity) AS total_qty,
@@ -45,7 +45,7 @@ SELECT
     SUM(quantity * price) AS revenue
 FROM sales
 GROUP BY product
-ORDER BY revenue DESC;
+ORDER BY revenue DESC
 
 ---
 
